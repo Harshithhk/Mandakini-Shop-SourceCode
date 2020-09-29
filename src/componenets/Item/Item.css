@@ -1,0 +1,43 @@
+.Item {
+  position: relative;
+  height: 250px;
+  width: 200px;
+  /* border: 3px solid #f6f6f6; */
+  border: 3px solid #f6f6f6;
+}
+
+.Item img {
+  width: 100%;
+  height: 175px;
+}
+
+.Off {
+  position: absolute;
+  top: 0%;
+  background-color: chartreuse;
+}
+.Itemdes {
+  /* background-color: cyan; */
+  width: 100%;
+  height: max;
+  padding-left: 1rem;
+}
+.Itemdes h5 {
+  background-color: rgb(218, 218, 218);
+  width: fit-content;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.Itemdes h3 {
+  padding-top: 0.5rem;
+  /* color: greenyellow; */
+  margin-top: 0.2rem;
+}
+
+.Itemdes h3 span {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 18px;
+}

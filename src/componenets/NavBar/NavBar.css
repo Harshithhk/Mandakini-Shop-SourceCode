@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.Navbar {
+  margin-top: 0.5rem;
+  height: 45px;
+  width: 100%;
+  background-color: #1e7020;
+  filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  z-index: 2;
+
+  /* align-items: center; */
+}
+
+.Navbar ul {
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+}
+
+.Navbar ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+}
+
+/* BACKGROUND */

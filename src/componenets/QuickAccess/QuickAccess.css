@@ -1,0 +1,50 @@
+.QuickAccess {
+  padding-top: 1rem;
+  width: 95%;
+  margin: 0 auto;
+  /* height: 100vh; */
+
+  /* background-color: tomato; */
+}
+
+.QuickTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  /* background-color: teal; */
+  border-bottom: 2px solid green;
+}
+.QuickTitle h2 {
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+.QuickDot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: greenyellow;
+}
+
+.itemgrid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 2rem;
+}
+.itemgrid div {
+  margin: 0 auto;
+}
+
+@media (max-width: 1350px) {
+  .itemgrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1350px) {
+  .itemgrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

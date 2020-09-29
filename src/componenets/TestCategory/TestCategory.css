@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.Categories {
+  z-index: 3;
+  width: 350px;
+  min-width: 250px;
+  height: 100vh;
+  /* background-color: #e6e6e6; */
+  background-color: white;
+  filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+}
+@media (max-width: 910px) {
+  .Categories {
+    display: none;
+  }
+}
+
+.Categories ul li span {
+  background-color: green;
+}
+
+.Categories ul :hover {
+  cursor: pointer;
+  background-color: rgba(35, 224, 92, 0.25);
+}
+
+.CatTitle {
+  display: flex;
+  height: 80px;
+  text-align: center;
+  background: rgb(228, 162, 40);
+  filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+  /* border-radius: 0px 0px 10px 10px; */
+}
+.CatTitle h1 {
+  color: white;
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: normal;
+  margin: auto;
+  font-family: Poppins;
+  /* align-items: center; */
+}
+
+.Cats {
+  height: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.Fa {
+  position: absolute;
+  right: 0;
+}
+
+.Categories ul li {
+  position: relative;
+}
+.Categories ul :hover .CatList {
+  display: block;
+}
+
+.CatList {
+  display: none;
+  background-color: rgb(197, 243, 211);
+
+  top: 0%;
+  left: 100%;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  /* background-color: green; */
+  /* transform: translateX(283px); */
+}

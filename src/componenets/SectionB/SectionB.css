@@ -1,0 +1,17 @@
+.SectionB {
+  /* margin-top: 1rem; */
+  display: flex;
+  width: 90%;
+  height: 70px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.SectionB div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 30%;
+  background-color: rgb(238, 235, 235);
+}

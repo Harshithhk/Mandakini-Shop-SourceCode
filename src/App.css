@@ -1,0 +1,21 @@
+.NavWrapper {
+  display: flex;
+}
+.TitleStatic {
+  position: sticky;
+}
+.AppContainer {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.App {
+  /* background-color: rgb(238, 237, 237); */
+  background-color: #ffffff;
+}
+
+.SectionWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
