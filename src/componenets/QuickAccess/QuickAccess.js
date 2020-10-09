@@ -7,7 +7,7 @@ const QuickAccess = (props) => {
 
   useEffect(() => {
     axios
-      .get("https://piyushdongre16.pythonanywhere.com/products/")
+      .get(`${URL}`)
       .then((res) => {
         console.log(res);
 
